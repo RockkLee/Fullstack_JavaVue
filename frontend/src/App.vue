@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <TopNav></TopNav>
-    <SideNav></SideNav>
     <div class="main_view">
       <router-view></router-view>
     </div>
@@ -11,7 +10,6 @@
 
 <script>
 import TopNav from "./components/TopNav.vue"
-
 
 
 export default {
